@@ -14,8 +14,8 @@ class QuizActivity2 : AppCompatActivity() {
         var score = intent.getIntExtra("SCORE", 0)
 
         answerButton2.setOnClickListener {
-            // Here you would have your answer checking logic
-            score++  // For demonstration, assume the answer is correct
+
+            score++ 
 
             val intent = Intent(this, QuizActivity3::class.java)
             intent.putExtra("SCORE", score)
