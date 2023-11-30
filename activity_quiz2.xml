@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the capital of France?"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/answerButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paris"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/answerButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lyon"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/answerButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toulouse"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Add more buttons for other answers if needed -->
+
+</LinearLayout>
