@@ -10,7 +10,7 @@
         android:id="@+id/questionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What is 1 + 1?"
+        android:text="Kolik je 4 * 2?"
         android:textSize="18sp"
         android:padding="20dp" />
 
@@ -18,14 +18,14 @@
         android:id="@+id/answerButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2"
+        android:text="8"
         android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/answerButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3"
+        android:text="0"
         android:layout_marginTop="20dp"/>
 
     <Button
@@ -34,6 +34,5 @@
         android:layout_height="wrap_content"
         android:text="4"
         android:layout_marginTop="20dp"/>
-    <!-- Add more buttons for other answer options if necessary -->
 
 </LinearLayout>
