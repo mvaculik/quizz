@@ -14,7 +14,7 @@ class QuizActivity1 : AppCompatActivity() {
         answerButton1.setOnClickListener {
            
             val userAnswer = answerButton1.text.toString()
-            val correctAnswer = "2"
+            val correctAnswer = "8"
             val score = if (userAnswer == correctAnswer) {
               
                 1
